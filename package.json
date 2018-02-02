@@ -1,0 +1,20 @@
+{
+  "name": "routemax-api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "connect-ensure-login": "^0.1.1",
+    "cors": "~2.8.1",
+    "express": "~4.16.2",
+    "mssql": "~4.1.0",
+    "oauth2orize": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-oauth2-client-password": "^0.1.2"
+  },
+  "devDependencies": {}
+}
